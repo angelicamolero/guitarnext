@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--negro);
+    padding: 5rem 0;
+    margin-top: 5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 2.8rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav a:hover {
+    color: var(--primary);
+}
+
+.copyright {
+    font-size: 2.8rem;
+    color: var(--blanco);
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (min-width: 48rem){
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

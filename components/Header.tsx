@@ -19,6 +19,11 @@ const Header = (product: any) => {
                         <Link href="/about_us"> About Us</Link>
                         <Link href="/blog"> Blog</Link>
                         <Link href="/store"> Store</Link>
+                        <Link href="/cart">
+                            <a href="">
+                                <Image layout='fixed' width={30} height={25} src="/img/carrito.png" alt="icon cart" />
+                            </a>
+                        </Link>
                     </nav>
                 </div>
                 {
